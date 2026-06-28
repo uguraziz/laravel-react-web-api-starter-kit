@@ -1,0 +1,150 @@
+{
+  "login": {
+    "title": "Admin Login",
+    "description": "Enter your credentials to access your account.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "submitting": "Logging in...",
+    "email_placeholder": "name@example.com",
+    "password_placeholder": "••••••••",
+    "error_required_email": "Email field is required.",
+    "error_invalid_email": "Invalid email address.",
+    "error_required_password": "Password must be at least 6 characters.",
+    "error_unexpected": "An unexpected error occurred during login."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to the system, {{name}}",
+    "profile_info": "Profile Information",
+    "profile_desc": "Detailed user profile information.",
+    "fullname": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "gender": "Gender",
+    "status": "Status",
+    "address": "Address",
+    "not_provided": "Not provided",
+    "system_info": "System Information",
+    "system_desc": "This application is built with Laravel 13, Passport OAuth2 authentication infrastructure, and React 19.",
+    "backend_status": "Backend Status",
+    "backend_online": "Online",
+    "role": "Role",
+    "role_admin": "Administrator",
+    "logout": "Logout",
+    "logging_out": "Logging out..."
+  },
+  "users": {
+    "title": "User Management",
+    "title_short": "Users",
+    "description": "You can manage users from this page.",
+    "add_user": "Add User",
+    "permissions": "Permissions",
+    "edit_user": "Edit User",
+    "delete_user": "Delete User",
+    "edit": "Edit",
+    "delete": "Delete",
+    "messages": {
+      "create_success": "User created successfully.",
+      "edit_success": "User updated successfully.",
+      "delete_success": "User deleted successfully.",
+      "error_title": "Error",
+      "success_title": "Success"
+    },
+    "table": {
+      "page_length": "Page Length",
+      "name": "Name",
+      "surname": "Surname",
+      "email": "Email",
+      "phone": "Phone",
+      "gender": "Gender",
+      "status": "Status",
+      "role": "Role",
+      "created_at": "Registration Date",
+      "actions": "Actions",
+      "search_placeholder": "Search by name, surname, email or phone...",
+      "role_filter_placeholder": "Type role name...",
+      "all_statuses": "All Statuses",
+      "all_genders": "All Genders",
+      "status_active": "Active",
+      "status_passive": "Passive",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "no_records": "No records found to display.",
+      "loading": "Loading data...",
+      "password": "Password",
+      "password_help": "Leave blank if you don't want to change.",
+      "address": "Address",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm_delete_title": "Delete User",
+      "confirm_delete_desc": "Are you sure you want to delete user {{name}} {{surname}}? This action cannot be undone.",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "showing": "Showing: {{from}} - {{to}} / Total: {{total}}"
+      }
+    }
+  },
+  "sidebar": {
+    "title": "Gas Crawler",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "permissions": "Permissions"
+  },
+  "permissions": {
+    "title": "Permissions",
+    "add_permission": "Add Permission",
+    "create_modal_title": "Add New Permission",
+    "save": "Save",
+    "cancel": "Cancel",
+    "name": "Permission Name",
+    "name_placeholder": "e.g. admin, editor",
+    "groups": {
+      "dashboard": "Dashboard",
+      "user_management": "User Management",
+      "user": "User Operations",
+      "permission": "Permission Operations"
+    },
+    "actions": {
+      "show": "Show",
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete",
+      "status": "Status"
+    },
+    "role_users_title": "Users with {{name}} Role",
+    "users_count": "Users",
+    "edit_role": "Edit Role",
+    "delete_role": "Delete Role",
+    "confirm_delete_title": "Delete Role",
+    "confirm_delete_desc": "Are you sure you want to delete \"{{name}}\" role? This action cannot be undone.",
+    "role_names": {
+      "admin": "Administrator",
+      "editor": "Editor",
+      "user": "Regular User"
+    },
+    "access_denied_title": "Access Denied",
+    "access_denied_desc": "You do not have permission to view this page. Please contact your system administrator.",
+    "items": {
+      "dashboard_show": "Show Dashboard",
+      "user_show": "List Users",
+      "user_create": "Add User",
+      "user_update": "Edit User",
+      "user_delete": "Delete User",
+      "user_status": "Change Status",
+      "permission_show": "List Permissions",
+      "permission_create": "Add Permission",
+      "permission_update": "Edit Permission",
+      "permission_delete": "Delete Permission"
+    }
+  },
+  "header": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "theme_light": "Light Theme",
+    "theme_dark": "Dark Theme",
+    "theme_system": "System Theme"
+  }
+}

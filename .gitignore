@@ -1,0 +1,30 @@
+# IDEs and Editors
+.idea/
+.vscode/
+.cursor/
+.gemini/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / Dependencies (in case root is used)
+node_modules/
+
+# Environment Files
+.env
+.env.local
+.env.backup

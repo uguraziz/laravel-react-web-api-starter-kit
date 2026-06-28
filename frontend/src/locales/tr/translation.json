@@ -1,0 +1,150 @@
+{
+  "login": {
+    "title": "Admin Girişi",
+    "description": "Hesabınıza erişmek için bilgilerinizi girin.",
+    "email": "E-posta",
+    "password": "Şifre",
+    "submit": "Giriş Yap",
+    "submitting": "Giriş Yapılıyor...",
+    "email_placeholder": "isim@ornek.com",
+    "password_placeholder": "••••••••",
+    "error_required_email": "E-posta alanı zorunludur.",
+    "error_invalid_email": "Geçersiz e-posta adresi.",
+    "error_required_password": "Şifre en az 6 karakter olmalıdır.",
+    "error_unexpected": "Giriş yapılırken beklenmedik bir hata oluştu."
+  },
+  "dashboard": {
+    "title": "Yönetim Paneli",
+    "welcome": "Sisteme hoş geldiniz, {{name}}",
+    "profile_info": "Profil Bilgileri",
+    "profile_desc": "Hesabınıza ait detaylı kullanıcı bilgileri.",
+    "fullname": "Ad Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "gender": "Cinsiyet",
+    "status": "Durum",
+    "address": "Adres",
+    "not_provided": "Girilmedi",
+    "system_info": "Sistem Bilgisi",
+    "system_desc": "Bu uygulama Laravel 13, Passport OAuth2 kimlik doğrulama altyapısı ve React 19 ile hazırlanmıştır.",
+    "backend_status": "Backend Durumu",
+    "backend_online": "Çevrimiçi",
+    "role": "Yetki Rolü",
+    "role_admin": "Yönetici",
+    "logout": "Çıkış Yap",
+    "logging_out": "Çıkış Yapılıyor..."
+  },
+  "users": {
+    "title": "Kullanıcı Yönetimi",
+    "title_short": "Kullanıcılar",
+    "description": "Sistemdeki kullanıcıları buradan yönetebilirsiniz.",
+    "add_user": "Kullanıcı Ekle",
+    "permissions": "Yetkiler",
+    "edit_user": "Kullanıcıyı Düzenle",
+    "delete_user": "Kullanıcıyı Sil",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "messages": {
+      "create_success": "Kullanıcı başarıyla oluşturuldu.",
+      "edit_success": "Kullanıcı başarıyla güncellendi.",
+      "delete_success": "Kullanıcı başarıyla silindi.",
+      "error_title": "Hata",
+      "success_title": "Başarılı"
+    },
+    "table": {
+      "page_length": "Kayıt Sayısı",
+      "name": "Ad",
+      "surname": "Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "gender": "Cinsiyet",
+      "status": "Durum",
+      "role": "Yetki Rolü",
+      "created_at": "Kayıt Tarihi",
+      "actions": "İşlemler",
+      "search_placeholder": "Ad, soyad, e-posta veya telefon ile ara...",
+      "role_filter_placeholder": "Rol adı yazın...",
+      "all_statuses": "Tüm Durumlar",
+      "all_genders": "Tüm Cinsiyetler",
+      "status_active": "Aktif",
+      "status_passive": "Pasif",
+      "gender_male": "Erkek",
+      "gender_female": "Kadın",
+      "no_records": "Gösterilebilecek kayıt bulunamadı.",
+      "loading": "Veriler yükleniyor...",
+      "password": "Şifre",
+      "password_help": "Değiştirmek istemiyorsanız boş bırakın.",
+      "address": "Adres",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "confirm_delete_title": "Kullanıcıyı Sil",
+      "confirm_delete_desc": "{{name}} {{surname}} isimli kullanıcıyı silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+      "pagination": {
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "showing": "Gösterilen: {{from}} - {{to}} / Toplam: {{total}}"
+      }
+    }
+  },
+  "sidebar": {
+    "title": "Gas Crawler",
+    "dashboard": "Dashboard",
+    "users": "Kullanıcılar",
+    "permissions": "Yetkiler"
+  },
+  "permissions": {
+    "title": "Yetkiler",
+    "add_permission": "Yetki Ekle",
+    "create_modal_title": "Yeni Yetki Ekle",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "name": "Yetki Adı",
+    "name_placeholder": "örn. admin, editor",
+    "groups": {
+      "dashboard": "Gösterge Paneli",
+      "user_management": "Kullanıcı Yönetimi",
+      "user": "Kullanıcı İşlemleri",
+      "permission": "Yetki İşlemleri"
+    },
+    "actions": {
+      "show": "Göster",
+      "create": "Ekle",
+      "update": "Düzenle",
+      "delete": "Sil",
+      "status": "Durum"
+    },
+    "role_users_title": "{{name}} Rolüne Sahip Kullanıcılar",
+    "users_count": "Kullanıcı",
+    "edit_role": "Rolü Düzenle",
+    "delete_role": "Rolü Sil",
+    "confirm_delete_title": "Rolü Sil",
+    "confirm_delete_desc": "\"{{name}}\" rolünü silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+    "role_names": {
+      "admin": "Yönetici",
+      "editor": "Editör",
+      "user": "Kullanıcı"
+    },
+    "access_denied_title": "Erişim Yetkisi Yok",
+    "access_denied_desc": "Bu sayfayı görüntüleme yetkiniz bulunmamaktadır. Lütfen sistem yöneticinizle iletişime geçin.",
+    "items": {
+      "dashboard_show": "Paneli Görüntüle",
+      "user_show": "Kullanıcıları Listele",
+      "user_create": "Kullanıcı Ekle",
+      "user_update": "Kullanıcı Düzenle",
+      "user_delete": "Kullanıcı Sil",
+      "user_status": "Durum Değiştir",
+      "permission_show": "Yetkileri Listele",
+      "permission_create": "Yetki Ekle",
+      "permission_update": "Yetki Düzenle",
+      "permission_delete": "Yetki Sil"
+    }
+  },
+  "header": {
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap",
+    "theme_light": "Açık Tema",
+    "theme_dark": "Karanlık Tema",
+    "theme_system": "Sistem Teması"
+  }
+}
