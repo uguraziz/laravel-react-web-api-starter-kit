@@ -5,7 +5,7 @@
 Backend
 - Laravel 13
 - REST API
-- Sanctum
+- Oauth2 Passport
 - PostgreSQL
 
 Frontend
