@@ -30,7 +30,11 @@ Backend
 
 composer install
 
-php artisan migrate
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan migrate:fresh --seed
 
 php artisan serve
 
