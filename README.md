@@ -34,6 +34,8 @@ cp .env.example .env
 
 php artisan key:generate
 
+php artisan passport:keys
+
 php artisan migrate:fresh --seed
 
 php artisan serve
